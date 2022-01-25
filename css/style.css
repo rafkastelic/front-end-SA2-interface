@@ -40,3 +40,84 @@ header{
     background-size: cover;
 
 }
+.secao-jogos{
+    background-color: rgb(6, 66, 100);
+}
+.jogos{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jogos img{
+        width: 150px;
+        display: flex;
+}
+.texto-jogos1{
+    color:white;
+    text-decoration: none;
+    text-transform:  uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+.texto-jogos2{
+    color:white;
+    text-decoration: none;
+    text-transform:  uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.secao-ofertas{
+    background-color: black;
+}
+.texto-ofertas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-transform:  uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.container-imagem{
+    background-color: grey;
+}
+.barras{
+    width: 50px;
+    display: none;
+}
+.posicionamento-header{
+    position: relative;
+}
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 200px;
+    }
+
+@media screen and (max-width:768px) {
+    .barras{
+        display:inline-block;
+    }  
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        position: absolute;
+        top: 0;
+        right: 60px;
+        background-color: black;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+}
